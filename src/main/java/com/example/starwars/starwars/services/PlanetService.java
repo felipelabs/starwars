@@ -1,5 +1,6 @@
 package com.example.starwars.starwars.services;
 
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.starwars.starwars.entity.Planet;
@@ -17,5 +18,4 @@ public class PlanetService {
   public Planet create(Planet planet){
     return planetRepository.save(planet);
   }
-  
 }
